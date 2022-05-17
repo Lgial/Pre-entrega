@@ -56,12 +56,12 @@
     grid-template: "header header" 100px "navbar navbar" 50px "main main"  auto "footer footer" 100px / 200px   auto; }
     .grid-container .navbar-brand {
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       justify-content: flex-start;
       align-items: flex-start; }
     .grid-container .navbar-nav {
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       align-items: flex-start; } }
 
 @media (min-width: 1440px) {
