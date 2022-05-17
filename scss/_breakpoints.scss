@@ -1,0 +1,38 @@
+
+@media (min-width: 320px) {
+    .grid-container {
+        grid-template:
+        "header" 50px
+        "navbar" 65px
+        "main"   auto
+        "footer"  100px;
+
+        #bgvideo {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+        }
+    
+    } 
+
+}
+
+@media (min-width: 600px) {
+    .grid-container {
+    grid-template:
+    "header header" 100px
+    "navbar navbar" 50px
+    "main main"  auto
+    "footer footer" 100px /
+     200px   auto; } 
+     }
+
+@media (min-width: 1440px) {
+    .grid-container {
+    justify-content: stretch;
+    grid-template:
+    "header navbar header"  100px
+    "main   main   main" auto
+    "footer footer footer"  100px /
+    200px   auto   200px
+    ; } }
