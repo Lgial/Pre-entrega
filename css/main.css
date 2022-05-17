@@ -36,7 +36,7 @@
   .grid-container {
     grid-template: "header" 50px "navbar" 65px "main"   auto "footer"  100px; }
     .grid-container #bgvideo {
-      width: 100%;
+      width: 300%;
       height: auto;
       object-fit: contain; }
     .grid-container .navbar-brand {
