@@ -46,3 +46,7 @@ $base-border-thickness: 1px;
     
     
 }
+
+.section2 {
+    @extend .section-center;
+}

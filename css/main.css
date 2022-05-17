@@ -36,7 +36,7 @@
   .grid-container {
     grid-template: "header" 50px "navbar" 65px "main"   auto "footer"  100px; }
     .grid-container #bgvideo {
-      width: 300%;
+      width: 100%;
       height: auto;
       object-fit: contain; }
     .grid-container .navbar-brand {
@@ -52,6 +52,7 @@
 
 @media (min-width: 600px) {
   .grid-container {
+    width: 100%;
     grid-template: "header header" 100px "navbar navbar" 50px "main main"  auto "footer footer" 100px / 200px   auto; }
     .grid-container .navbar-brand {
       display: flex;
@@ -65,6 +66,7 @@
 
 @media (min-width: 1440px) {
   .grid-container {
+    width: 100%;
     justify-content: stretch;
     grid-template: "header navbar header"  100px "main   main   main" auto "footer footer footer"  100px / 200px   auto   200px; }
     .grid-container .navbar-brand {
@@ -148,18 +150,18 @@ body {
 *, ::after, ::before {
   box-sizing: border-box; }
 
-.section-center {
+.section-center, .section2 {
   background-image: url(../images/main.jpg);
   border-top: 2px solid #7f520b;
   border-bottom: 2px solid #7f520b;
   border-radius: 4px;
   width: 100%;
   height: auto; }
-  .section-center h2 {
+  .section-center h2, .section2 h2 {
     color: #fbf292;
     text-align: center;
     font-size: 2rem; }
-  .section-center p {
+  .section-center p, .section2 p {
     text-align: center;
     font-family: 'Cinzel Decorative', cursive;
     font-size: 1.2rem;
