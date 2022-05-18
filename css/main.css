@@ -188,6 +188,7 @@
 .footer .red-social {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   width: 45px;
   height: auto; }
   .footer .red-social a {
