@@ -43,10 +43,12 @@
         
 
         a { 
+           font-size: 1.1rem;
             line-height: 45px;
             color: map-get($map: $colors, $key:primary );
             margin-right: 10px;
             text-align: center ;
+            text-decoration: none;
             transition: all 300ms ease;}
 
             a:hover {
