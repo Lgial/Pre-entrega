@@ -1,0 +1,72 @@
+.footer { 
+    .grupo-1 {
+       width: 100%;
+       max-width: 1200px;
+       margin: auto;
+       display: grid;
+       grid-template-columns: repeat(1, 1fr);
+       grid-gap: 50px;
+       padding: 45px 0px;
+       justify-items: center;
+ 
+       .box figure {
+          width: 100%;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+ 
+      .img-footer {
+       width: 250px;
+    }
+   
+    h2 {
+ 
+       color: map-get($map: $colors, $key:primary );
+       margin-bottom: 25px;
+       font-size: 20px;
+    }
+ 
+    p {
+       color: map-get($map: $colors, $key:primary );
+      margin-bottom: 10px;
+   }
+   
+}
+   .red-social  {
+        display: flex;
+        flex-direction: column;
+        width: 45px;
+        height: auto;
+        
+
+        a { 
+            line-height: 45px;
+            color: map-get($map: $colors, $key:primary );
+            margin-right: 10px;
+            text-align: center ;
+            transition: all 300ms ease;}
+
+            a:hover {
+ 
+                color: map-get($map: $colors, $key:border );
+              }
+  }
+ 
+ 
+ }
+
+ 
+ .grupo-2 {
+    padding: 15px 10px;
+    text-align: center;
+    color: map-get($map: $colors, $key:primary );
+ 
+   small {
+    font-size: 15px;
+   }
+ 
+  }
+ 
+ 
