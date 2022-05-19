@@ -44,12 +44,14 @@
       flex-direction: column;
       justify-content: flex-start;
       align-items: flex-start;
-      font-size: 1.3rem !important; }
+      font-size: 1.2rem !important; }
     .grid-container .navbar-nav {
       display: flex;
       flex-direction: column;
       justify-content: flex-end;
       align-items: flex-start; }
+    .grid-container a {
+      font-size: 1rem; }
   .images {
     display: flex;
     justify-content: center;

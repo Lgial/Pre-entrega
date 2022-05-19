@@ -19,7 +19,9 @@
             flex-direction: column;
             justify-content: flex-start;
             align-items: flex-start;
-            font-size: 1.3rem!important;
+            font-size: 1.2rem!important;
+
+            
         }
 
         .navbar-nav {
@@ -28,6 +30,10 @@
             justify-content: flex-end;
             align-items: flex-start;
             
+         }
+
+         a {
+             font-size: 1rem;
          }
     } 
 
