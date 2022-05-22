@@ -1,3 +1,4 @@
+@import "_variables";
 .navbar {
     background-image: url(../images/navbar.jpg);
     position: relative;
@@ -6,7 +7,6 @@
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     justify-content: flex-end;
-
     .navbar-nav {
         display: flex;
         flex-direction: row;
@@ -14,19 +14,14 @@
         align-items: flex-start;
         
      }
-
     a {
-        color: #ffffff!important;
-    
+        color: map-get($map: $colors, $key:primary )!important;
     }
-
     .navbar-brand {
-        color: #ffffff!important;
+        color: map-get($map: $colors, $key:primary )!important;
     }
-
-
     #main-logo {
-        color: #fff;
+        color: map-get($map: $colors, $key: primary);
         font-family: Montserrat,sans-serif;
         font-size: 1.6rem;
         font-weight: 700;
@@ -34,21 +29,15 @@
         margin: 0 20px;
         text-decoration: none;
     }
-
     .navbar-toggler-icon {
-    
-        background-color: #f7f7f7!important;
+        background-color: map-get($map: $colors, $key: primary);
         border-radius: 4px;
-        border: 1px #7f520b;
-        
+        border: 1px #7f520b; 
     }
-
     span {
         text-align: center;
     }
-
     .colored {
         color: red;
     }
-    
    }

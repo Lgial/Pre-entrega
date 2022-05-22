@@ -16,7 +16,7 @@
   .navbar .navbar-brand {
     color: #ffffff !important; }
   .navbar #main-logo {
-    color: #fff;
+    color: #ffffff;
     font-family: Montserrat,sans-serif;
     font-size: 1.6rem;
     font-weight: 700;
@@ -24,7 +24,7 @@
     margin: 0 20px;
     text-decoration: none; }
   .navbar .navbar-toggler-icon {
-    background-color: #f7f7f7 !important;
+    background-color: #ffffff;
     border-radius: 4px;
     border: 1px #7f520b; }
   .navbar span {
@@ -34,7 +34,7 @@
 
 @media (min-width: 320px) {
   .grid-container {
-    grid-template: "header" 50px "navbar" 65px "main"   auto "footer"  100px; }
+    grid-template: "navbar" 65px "main"   auto "footer"  100px; }
     .grid-container #bgvideo {
       width: 100%;
       height: auto;
@@ -71,20 +71,20 @@
       grid-template-columns: repeat(1, 1fr);
       grid-gap: 30px;
       padding: 35px 0px; }
-      .footer .grupo-1 h2 {
-        font-size: 15px; }
-      .footer .grupo-1 p {
-        font-size: 10px; }
-      .footer .grupo-1 .red-social {
-        display: flex;
-        flex-direction: column;
-        width: 45px;
-        height: auto; } }
+    .footer h2 {
+      font-size: 15px; }
+    .footer p {
+      font-size: 10px; }
+    .footer .red-social {
+      display: flex;
+      flex-direction: column;
+      width: 45px;
+      height: auto; } }
 
 @media (min-width: 600px) {
   .grid-container {
     width: 100%;
-    grid-template: "header header" 100px "navbar navbar" 50px "main main"  auto "footer footer" 100px / 200px   auto; }
+    grid-template: "navbar navbar" 50px "main main"  auto "footer footer" 100px / 200px   auto; }
     .grid-container .navbar-brand {
       display: flex;
       flex-direction: column;
@@ -112,7 +112,7 @@
   .grid-container {
     width: 100%;
     justify-content: stretch;
-    grid-template: "header navbar header"  100px "main   main   main" auto "footer footer footer"  100px / 200px   auto   200px; }
+    grid-template: "navbar navbar navbar"  100px "main   main   main" auto "footer footer footer"  100px / 200px   auto   200px; }
     .grid-container .navbar-brand {
       display: flex;
       flex-direction: row;
@@ -139,7 +139,7 @@
   .grid-container {
     width: 100%;
     justify-content: stretch;
-    grid-template: "header navbar header"  100px "main   main   main" auto "footer footer footer"  100px / 200px   auto   200px; }
+    grid-template: "navbar navbar navbar"  100px "main   main   main" auto "footer footer footer"  100px / 200px   auto   200px; }
     .grid-container .navbar-brand {
       display: flex;
       flex-direction: row;

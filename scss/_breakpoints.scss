@@ -1,248 +1,180 @@
-
+// Media 320px
 @media (min-width: 320px) {
     .grid-container {
-        
         grid-template:
-        "header" 50px
         "navbar" 65px
         "main"   auto
         "footer"  100px;
-
         #bgvideo {
             width: 100%;
             height: auto;
             object-fit: contain;
         }
-
         .navbar-brand {
             display: flex;
             flex-direction: column;
             justify-content: flex-start;
             align-items: flex-start;
             font-size: 1.2rem!important;
-
-            
-        }
-
+         }
         .navbar-nav {
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
             align-items: flex-start;
-            
          }
-
          a {
              font-size: 1rem;
          }
     } 
-
     .images {
         display: flex;
         justify-content: center;
         flex-direction: column;
         align-items: center;
-    
-
     .container-img {
         display: flex;
         justify-content: center;
          width: 80%;
          height: auto;
     }
-
-    
     .galeria {
         width: 100%;
         height: auto;
-
-
     }
 }
-.footer {
+.footer { 
     width: 100%;
-
     .grupo-1 {
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 30px;
         padding: 35px 0px;
-    
-
-    h2 {
-        font-size: 15px;
-
-    }
-
-    p {
-        font-size: 10px;
-
-    }
-
-    .red-social {
+     }
+     h2 {
+         font-size: 15px;
+     }
+     p {
+         font-size: 10px;
+     }
+     .red-social {
         display: flex;
         flex-direction: column;
         width: 45px;
         height: auto;
-        
-    }
-}
-}
-
-}
-
-
-
+  }
+  }
+ }
+ // Media 600px
 @media (min-width: 600px) {
     .grid-container {
         width: 100%;
     grid-template:
-    "header header" 100px
     "navbar navbar" 50px
     "main main"  auto
     "footer footer" 100px /
      200px   auto;
-    
      .navbar-brand {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
     }
-
     .navbar-nav {
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
-        
+        align-items: flex-start; 
      }
-    
     } 
-
     .images {
         display: flex;
         justify-content: center;
         flex-direction: column;
         align-items: center;
-    
-
     .container-img {
         display: flex;
         justify-content: center;
          width: 80%;
          height: auto;
     }
-
-    
     .galeria {
         width: 100%;
         height: auto;
-
-
     }
-
+  } 
 }
-     }
-
+    // Media 1024px
      @media (min-width: 1024px) {
         .grid-container {
             width: 100%;
             justify-content: stretch;
             grid-template:
-            "header navbar header"  100px
+            "navbar navbar navbar"  100px
             "main   main   main" auto
             "footer footer footer"  100px /
-            200px   auto   200px
-            ; 
-        
+            200px   auto   200px; 
             .navbar-brand {
                 display: flex;
                 flex-direction: row;
                 justify-content: flex-start;
                 align-items: flex-start;
             }
-        
             .navbar-nav {
                 display: flex;
                 flex-direction: row;
                 align-items: flex-start;
-                
              }
         } 
-        
         .images {
             display: flex;
             flex-direction: row;
             align-items: center;
-        
-        
         .container-img {
             display: flex;
             justify-content: center;
              width: 100%;
              height: auto;
         }
-        
-        
         .galeria {
             width: 100%;
             height: auto;
-        
-        
+         }
         }
-        
-        }
-
      }
-
+// Media 1440px
 @media (min-width: 1440px) {
     .grid-container {
     width: 100%;
     justify-content: stretch;
     grid-template:
-    "header navbar header"  100px
+    "navbar navbar navbar"  100px
     "main   main   main" auto
     "footer footer footer"  100px /
-    200px   auto   200px
-    ; 
-
+    200px   auto   200px; 
     .navbar-brand {
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
         align-items: flex-start;
     }
-
     .navbar-nav {
         display: flex;
         flex-direction: row;
         align-items: flex-start;
-        
      }
 } 
-
 .images {
     display: flex;
     flex-direction: row;
     align-items: center;
-
-
 .container-img {
     display: flex;
     justify-content: center;
      width: 100%;
      height: auto;
 }
-
-
 .galeria {
     width: 100%;
     height: auto;
-
-
-}
-
-}
-
-
-
+  }
+ }
 }
